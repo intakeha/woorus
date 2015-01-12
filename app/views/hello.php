@@ -5,7 +5,7 @@
 <head>
   
     <!-- Basic -->
-	<title>Woorus | A Digital Agency</title>
+	<title>Woorus Dev | A Digital Agency</title>
     
     <!-- Define Charset -->
 	<meta charset="utf-8">
