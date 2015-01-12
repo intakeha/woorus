@@ -5,7 +5,7 @@
 <head>
   
     <!-- Basic -->
-	<title>Woorus | Digital Agency</title>
+	<title>Woorus | A Digital Agency</title>
     
     <!-- Define Charset -->
 	<meta charset="utf-8">
@@ -99,7 +99,7 @@
         </div>
 	
         <!-- Text -->
-        <p>Helping businesses grow their digital presence</p>
+        <p>Helping businesses &amp; individuals grow their digital presence</p>
         
         <!-- Button -->
         <a href="#about" class="goAbout btn-sys btn-light btn-border btn-large btn-crv">More About Us <i class="icon-arrow-right2"></i></a>
@@ -160,7 +160,7 @@
 		<h1>About Us</h1>
 		<h2>A Boutique Digital Agency</h2>
 		<div class="title-icon"><span><i class="icon-megaphone5"></i></span></div>
-		<p class="lead">We focus on buidling strong digital solutions that break the mold and get your business noticed.  We work passionately to help you achieve your unique business objectives, strategies, and outcomes.</p>
+		<p class="lead">We focus on buidling strong digital solutions that break the mold and get you noticed!  We work passionately to help you achieve your unique goals, strategies, and outcomes.</p>
 		<p>We are based in Palo Alto, California, right in the heart of Silicon Valley.</p>
                 </div>
                 <!-- Space -->
@@ -188,7 +188,7 @@
                         <div class="note-marker"></div>
                         <div class="img-note-content">
                             <h5>Creative Solutions</h5>
-                            <p>We can assist with branding, marketing, and corporate identity, as well as photo shooting for web design work and graphics.</p>
+                            <p>We can assist with branding, marketing, and identity, as well as photo shooting for web design work and graphics.</p>
                         </div>
                     </div>
                     <!-- Marker 3 -->
@@ -196,7 +196,7 @@
                         <div class="note-marker"></div>
                         <div class="img-note-content">
                             <h5>Digital Partner</h5>
-                            <p>We work closely with you to build your online presence. We can also help maintain your site so you can focus on your business.</p>
+                            <p>We work closely with you to build your online presence. We can also help maintain your site so you can focus on other things.</p>
                         </div>
                     </div>
                     <!-- Image -->
@@ -219,7 +219,7 @@
 	<div class="section-overlay"></div>
 	
 	<div class="container">
-		<div class="quote-content"><q>We do websites and all that goes along with it.</q></div>
+		<div class="quote-content">We do websites and all that goes along with it.</div>
 	</div>
 </div>
 <!-- End Break Section --> 
@@ -252,35 +252,35 @@
 			<div class="item service-box style-1">
 			<i class="icon-briefcase6"></i>
 			<h4>Consulting</h4>
-			<p>We provide consulting services to help you pick the appropriate technologies, hosting options, and support for your business.</p>
+			<p>We provide consulting services to help you pick the appropriate technologies, hosting options, and maintenance support.</p>
 			</div>
 
 			<!-- Service box 2 -->
 			<div class="item service-box style-1">
 			<i class="icon-browser4"></i>
 			<h4>Web Design</h4>
-			<p>First impressions are important. We translate your business strategies into visual concepts and online experiences.</p>
+			<p>First impressions are important. We translate your goals and strategies into visual concepts and online experiences.</p>
 			</div>
 			
 			<!-- Service box 3 -->
 			<div class="item service-box style-1">
 			<i class="icon-cube2"></i>
 			<h4>Branding</h4>
-			<p>Your brand is the cornerstone of your business. We can integrate your current brand assets or create a new identity.</p>
+			<p>Your brand is the cornerstone of your success. We can integrate your current brand assets or create a new identity.</p>
 			</div>
 			
 			<!-- Service box 4 -->
 			<div class="item service-box style-1">
 			<i class="icon-share"></i>
 			<h4>Social Media</h4>
-			<p>We can help stand up your unique brand to entice potential customers and increase brand awareness.</p>
-			</div>			
+			<p>We can help setup your social media presence to entice potential customers and audiences, and increase brand awareness.</p>
+			</div>
 
 			<!-- Service box 5 -->
 			<div class="item service-box style-1">
 			<i class="icon-camera"></i>
 			<h4>Photography</h4>
-			<p>Our creativity goes beyond technology. We capture the magic of your business by simply setting up a photoshoot.</p>
+			<p>Our creativity goes beyond technology. We capture the magic of your identity by simply setting up a photoshoot.</p>
 			</div>
 		
 			<!-- Service box 6 -->
@@ -294,7 +294,7 @@
 			<div class="item service-box style-1">
 			<i class="icon-stats3"></i>
 			<h4>Analytics</h4>
-			<p>We use web analytics to help you capture, analyze, and interpret the information that is most important to your business.</p>
+			<p>We use web analytics to help you capture, analyze, and interpret the information that is most important to you.</p>
 			</div>
 
 			<!-- Service box 8 -->
@@ -341,7 +341,7 @@
 			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Meet</h4></div>
 			<div class="col-md-12"><img alt="" src="images/meet.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">The first step is to discover more about you and your vision. This is where we identify your style, brand, strategy, and goals for your online presence.</div>
+				<div class="steps">The first step is to discover more about you and your vision. This is where we identify your style, brand, strategy, and goals, as well as detailing any feature requests you may have for your online presence.</div>
 			</div>
 		</div>
 		<!-- Space -->
@@ -349,20 +349,20 @@
 
 
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Plan &amp; Design</h4></div>
+			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Plan &amp; Brainstorm</h4></div>
 			<div class="col-md-12"><img alt="" src="images/plan.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">After the initial meetup, we take your inputs and create the sitemap along with the wireframes. We will also outline the project milestones.</div>
+				<div class="steps">We then create the site map and visual representation of how your site will look based on our initial discussion.  This is where the layout of the website begins to take shape.  We will also decide the technologies needed during this phase.</div>
 			</div>
 		</div>
 		<!-- Space -->
 		<div class="hr" style="margin-bottom:25px;"></div>
 		
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Develop</h4></div>
+			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Design &amp; Develop</h4></div>
 			<div class="col-md-12"><img alt="" src="images/design.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">Once the outline is finished, visual concepts of the custom project will be created. Our creative and development team reviews and revises the materials until it aligns with your goals.</div>
+				<div class="steps">Once we decide on the visual concepts, it's time to put it all together.  We will transform your ideas into code and integrate your content into the site.</div>
 			</div>
 		</div>		
 		<!-- Space -->
@@ -372,7 +372,7 @@
 			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Test</h4></div>
 			<div class="col-md-12"><img alt="" src="images/test.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">Here review and testing takes place, which ensures the quality of your project. This is the most valuable step because your reputation is our reputation!</div>
+				<div class="steps">Here we run your website through several diagnostics, which ensures the quality of your project. This is the most valuable step because your reputation is our reputation!</div>
 			</div>
 		</div>		
 		<!-- Space -->
@@ -382,7 +382,7 @@
 			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Launch</h4></div>
 			<div class="col-md-12"><img alt="" src="images/launch.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">Here is where we present your custom project. Upon approval, your custom project will be launched and promoted.</div>
+				<div class="steps">Once we receive your approval, we will launch your site onto the production server. This marks the official launch of your site, as it is now viewable to the public.</div>
 			</div>
 		</div>
 		<!-- Space -->
@@ -392,7 +392,7 @@
 			<div class="col-md-6 col-md-offset-3 text-center"><h4 class="accent-color">Maintain</h4></div>
 			<div class="col-md-12"><img alt="" src="images/maintenance.png"/></div>
 			<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
-				<div class="steps">Here is where we present your custom project. Upon approval, your custom project will be launched and promoted.</div>
+				<div class="steps">Small tweaks and updates are a reality for any websites. We are more than happy to continue working closely with you to update the information on your website.</div>
 			</div>
 		</div>
 
@@ -423,51 +423,57 @@
         
         <div class="row">
             
-            <div class="col-md-6 col-md-offset-3">
-                <!-- Title -->
-                <div class="section-title text-center">
-                    <h1>Contact Us</h1>
-                    <h2>Get In Touch</h2>
-                    <div class="title-icon"><span><i class="icon-paperplane2"></i></span></div>
-                    <p class="lead">We would love to hear from you to talk about possibilities. So, if you have a project you are excited about or if you just want to find out more about who we are and what we do, please give us a call or send us an email. We look forward to meeting you soon.</p>
-                </div>
-                <!-- Space -->
-                <div class="hr" style="margin-bottom:50px;"></div>
-            </div>
-            
-        </div>
+		<div class="col-md-8 col-md-offset-2">
+			<!-- Title -->
+			<div class="section-title text-center">
+			    <h1>Contact Us</h1>
+			    <h2>Get In Touch</h2>
+			    <div class="title-icon"><span><i class="icon-paperplane2"></i></span></div>
+			    <p class="lead">We would love to hear from you and talk about possibilities. If you have a project you are excited about or if you just want to find out more about who we are and what we do, please give us a call or send us an email. We look forward to meeting you soon.</p>		
+			</div>
+			
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1 col-sm-6">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-2 col-sm-3 col-sm-offset-3 text-center"><i class="icon-phone-hang-up"></i><strong> Phone</strong></div>
+						<div class="col-md-4 col-sm-3 text-center">650.383.7729</div>
+					</div>
+				</div>
+				<div class="visible-xs"><div class="hr" style="margin-bottom:20px;"></div></div>
+				<div class="col-md-5 col-sm-6">
+					<div class="row">
+						<div class="col-md-4 col-md-offset-2 col-sm-3 col-sm-offset-3 text-center"><i class="icon-email2"></i><strong> Email</strong></div>
+						<div class="col-md-4 col-sm-3 text-center">hello@woorus.com</div>
+					</div>
+				</div>
+			</div>
+		<!-- Space -->
+		<div class="hr" style="margin-bottom:50px;"></div>
+		
+		</div>
+	</div>
     
     	<div class="row">
         
-            <!-- Info Box -->
-        	<div class="col-xs-12 col-sm-4 col-md-4">
-                <h3>Our Contact Info</h3>
-                <div class="hr" style="margin-bottom:8px;"></div>
-                <ul class="icons-list">
-                    <li><i class="icon-phone-hang-up"></i><strong>Phone:</strong> 650.383.7729</li>
-                    <li><i class="icon-email2"></i><strong>Email:</strong> hello@woorus.com</li>
-                </ul>
-            </div>
-        
             <!-- Contact Form -->
-        	<div class="col-xs-12 col-sm-8 col-md-8">
+        	<div class="col-xs-12">
                 <div id="contant-form-bx" class="contant-form-bx">
                 	<div class="contact-loader"></div>
                 	<form action="mail.php" id="contact-form" class="contact-form" name="cform" method="post">
                     	<div class="row">
                             <div class="col-md-6">  
                                 <label for="name" id="name_label">Name</label>
-                                <span class="name-missing">Please enter your name!</span>  
+                                <span class="name-missing">Please enter your name</span>  
                                 <input id="name" type="text" value="" name="name" size="30"> 
                             </div> 
                             <div class="col-md-6 columns"> 
                                 <label for="e-mail" id="email_label">Email</label>
-                                <span class="email-missing">Please enter a valid e-mail!</span> 
+                                <span class="email-missing">Please enter a valid e-mail</span> 
                                 <input id="e-mail" type="text" value="" name="email" size="30">
                             </div>
                             <div class="col-md-12"> 
                                 <label for="message" id="phone_label">Message</label>
-                                <span class="message-missing">Say something!</span>
+                                <span class="message-missing">Let us know how we can help</span>
                                 <textarea id="message" name="message" rows="7" cols="40"></textarea>
                             </div>
                             <div class="col-md-12 text-center"> 
