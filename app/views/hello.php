@@ -22,7 +22,7 @@
 
     
     <!-- Bootstrap CSS Styles -->
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
     
     <!-- Plugins CSS Styles -->
 	<link rel="stylesheet" href="css/plugin.css" type="text/css" media="screen">
