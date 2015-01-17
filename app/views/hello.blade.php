@@ -22,7 +22,8 @@
 
     
     <!-- Bootstrap CSS Styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+	<!-- <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen"> -->
+	{{ HTML::style('css/bootstrap.min.css') }}
     
     <!-- Plugins CSS Styles -->
 	<link rel="stylesheet" href="css/plugin.css" type="text/css" media="screen">
