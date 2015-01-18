@@ -1,10 +1,10 @@
 <IfModule mod_rewrite.c>
+Redirect 301 / https://google.com
     <IfModule mod_negotiation.c>
         Options -MultiViews
     </IfModule>
 
     RewriteEngine On
-    RewriteBase /
 
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
