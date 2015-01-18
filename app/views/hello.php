@@ -459,7 +459,7 @@
         	<div class="col-xs-12">
                 <div id="contant-form-bx" class="contant-form-bx">
                 	<div class="contact-loader"></div>
-                	<form action="mail.php" id="contact-form" class="contact-form" name="cform" method="post">
+                	<form action="contact-request" id="contact-form" class="contact-form" name="cform" method="post">
                     	<div class="row">
                             <div class="col-md-6">  
                                 <label for="name" id="name_label">Name</label>

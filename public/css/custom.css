@@ -1372,3 +1372,14 @@ body .entry-content section{
 .st_404_sub{
     overflow: hidden;
 }
+
+.contact-loader{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: green;
+	font-size: 25px;
+	line-height: 40px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
