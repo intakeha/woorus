@@ -30,7 +30,7 @@ $(document).ready(function(){
 			//send the ajax request
 			$.ajax({
 				type: "POST",
-				url: "contact-request",
+				url: "/contact",
 				data: { name:$('#name').val(), email:$('#e-mail').val(), message:$('#message').val()}
 			}).done(function( data ) {
 				$('.contact-loader').append(data).slideDown(200);

@@ -14,4 +14,4 @@
 Route::get('/', 'HomeController@showWelcome');
 
 //Form request:: POST action will trigger to controller
-Route::post('contact-request','ContactController@getContactUsForm');
+Route::post('contact','ContactController@getContactUsForm');
