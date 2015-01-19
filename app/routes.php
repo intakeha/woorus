@@ -11,14 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', 'HomeController@showWelcome');
 
-Route::get('users', function()
-{
-    $users = User::all();
-
-    return View::make('users')->with('users', $users);
-});
+//Form request:: POST action will trigger to controller
+Route::post('contact','ContactController@getContactUsForm');

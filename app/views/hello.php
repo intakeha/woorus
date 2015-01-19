@@ -5,7 +5,7 @@
 <head>
   
     <!-- Basic -->
-	<title>Woorus | A Digital Agency</title>
+	<title>Woorus Dev | A Digital Agency</title>
     
     <!-- Define Charset -->
 	<meta charset="utf-8">
@@ -22,10 +22,10 @@
 
     
     <!-- Bootstrap CSS Styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
     
     <!-- Plugins CSS Styles -->
-    <link rel="stylesheet" href="css/plugins.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/plugin.css" type="text/css" media="screen">
   
     <!-- Woorus CSS Styles -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
@@ -459,7 +459,7 @@
         	<div class="col-xs-12">
                 <div id="contant-form-bx" class="contant-form-bx">
                 	<div class="contact-loader"></div>
-                	<form action="mail.php" id="contact-form" class="contact-form" name="cform" method="post">
+                	<form action="contact" id="contact-form" class="contact-form" name="cform" method="post">
                     	<div class="row">
                             <div class="col-md-6">  
                                 <label for="name" id="name_label">Name</label>

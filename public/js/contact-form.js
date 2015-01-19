@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	
    //submission scripts
-  $('#contact-form').submit( function(){
+  $('#contact-form').submit( function(e){
+	  	  
 		//statements to validate the form	
 		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 		var email = document.getElementById('e-mail');
@@ -22,23 +23,25 @@ $(document).ready(function(){
 		
 			//show the loading bar
 			$('.contact-loader').append().slideUp(600);
+			
+			//remove form
+			$(".contact-form").slideUp(200);
 		
 			//send the ajax request
-			$.post('mail.php',{name:$('#name').val(),
-							  email:$('#e-mail').val(),
-							  message:$('#message').val()},
-		
-			//return the data
-			function(data){
-			  //hide the graphic
-			  $('.contact-loader').append(data).slideDown(600);
-			});
-          
-            //waits 2000, then closes the form and fades out
-			setTimeout('$(".mail_response").slideUp(800)', 6000);
-          
+			$.ajax({
+				type: "POST",
+				url: "/contact",
+				data: { name:$('#name').val(), email:$('#e-mail').val(), message:$('#message').val()}
+			}).done(function( data ) {
+				$('.contact-loader').append(data).slideDown(200);
+			});	
+			
 			//stay on the page
 			return false;
-		} 
+		}
+		
+		e.preventDefault();
+		e.unbind();
+
   }); 
 });
