@@ -550,7 +550,7 @@
 <script type="text/javascript" src="js/counter.js"></script>
 <script type="text/javascript" src="js/imagesloaded.min.js"></script>
 <script type="text/javascript" src="js/smooth-scroll.js"></script>
-<!-- <script type="text/javascript" src="js/contact-form.js"></script> -->
+<script type="text/javascript" src="js/contact-form.js"></script>
 <!-- <script type="text/javascript" src="js/portfolio.js"></script> -->
 <script type="text/javascript" src="js/main.js"></script>
 
