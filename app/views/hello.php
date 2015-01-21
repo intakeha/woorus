@@ -5,7 +5,7 @@
 <head>
   
     <!-- Basic -->
-	<title>Woorus | A Digital Agency</title>
+	<title>Woorus | Boutique Digital Agency</title>
     
     <!-- Define Charset -->
 	<meta charset="utf-8">
@@ -14,7 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <!-- Page Description and Author -->
-    <meta name="description" content="Woorus - Boutique IT company">
+    <meta name="description" content="Woorus - A Boutique Digital Company">
     <meta name="author" content="woorus">
     
     <!-- Favicon -->
