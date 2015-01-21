@@ -95,7 +95,8 @@
     	<div class="text-slider">
 		<div class="item"><h1 class="fit-text">Welcome To <strong class="accent-color">Woorus</strong></h1></div>
 		<div class="item"><h1 class="fit-text">We Are <strong class="accent-color">Artisans</strong></h1></div>
-		<div class="item"><h1 class="fit-text">We <strong class="accent-color">Build</strong> Websites</h1></div>
+		<div class="item"><h1 class="fit-text">We Build <strong class="accent-color">Websites</strong></h1></div>
+		<div class="item"><h1 class="fit-text">We Build <strong class="accent-color">Experiences</strong></h1></div>
         </div>
 	
         <!-- Text -->
