@@ -516,6 +516,7 @@
                 <!-- Copyright -->
                 <div class="copyright">All rights reserved. Copyright &copy; 2015 Woorus</div>
                 <!-- Social Icons -->
+	      <!--
                 <div class="social-icons">
                 	<ul>
 			<li><a href="#"><i class="icon-yelp"></i></a></li>
@@ -524,6 +525,7 @@
 			<li><a href="#"><i class="icon-google-plus"></i></a></li>
                     </ul>
                 </div>
+		-->
             </div>
         
         </div>
