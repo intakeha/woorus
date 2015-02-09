@@ -8,13 +8,16 @@ $date_time = date("F j, Y, g:i a");
 $userIpAddress = Request::getClientIp();
 ?> 
  
-<h4 style="color: green;">Here's a new contact request from our website: </h4>
+<h4 style="color: green;">Here's a new contact request from the Woorus website: </h4>
  
-<p>
-Name: <?php echo ($name); ?> <br>
-Email address: <?php echo ($email);?> <br>
-Date: <?php echo($date_time);?><br>
-User IP address: <?php echo($userIpAddress);?><br>
-Message: <?php echo ($message);?><br>
-
-</p>
+<div>
+<b>Name:</b> <?php echo ($name); ?> <br>
+<b>Email address:</b> <?php echo ($email);?> <br>
+<b>Date:</b> <?php echo($date_time);?><br>
+<b>User IP address:</b> <?php echo($userIpAddress);?><br>
+</div>
+<div>
+<p> 
+<b>Message:</b>
+<?php echo ($message);?><p>
+</div>

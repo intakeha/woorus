@@ -10,7 +10,7 @@ class ContactController extends BaseController {
 
 		//Validation rules
 		$rules = array (
-			'name' => 'required|alpha',
+			'name' => 'required',
 			'email' => 'required|email',
 			'message' => 'required'
 		);
@@ -35,8 +35,11 @@ class ContactController extends BaseController {
 			return $success_message;
 
 		}else{
+			$error_message = "Sorry, your message did not go through.";
+
+			return $error_message;
 			//return contact form with errors
-			return Redirect::back()->withInput()->withErrors($validator->messages());
+			//return Redirect::back()->withInput()->withErrors($validator->messages());
 		}
 	}
 }
