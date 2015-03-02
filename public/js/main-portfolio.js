@@ -84,11 +84,12 @@ jQuery(document).ready(function(){
                 });
                 jQuery(window).scroll(function(){
                     if (jQuery('#home').length == 1 ){
-			jQuery(".header-1 div.visible-lg, .header-1 div.visible-sm").removeClass("hide"); // hide logo on the home section
+			//jQuery(".header-1 div.visible-lg, .header-1 div.visible-sm").removeClass("hide"); // hide logo on the home section
                         if (jQuery(window).scrollTop() > homeHeight) {
                             jQuery(".header-1").addClass("header-bg");
 			    jQuery(".header-1").addClass("dark-header").removeClass("light-header");			    
-			    jQuery(".header-1 div.visible-lg, .header-1 div.visible-sm").removeClass("hide");
+			    jQuery(".header-1 div.visible-lg.dark, .header-1 div.visible-sm.dark").removeClass("hide");
+			    jQuery(".header-1 #logo.white").addClass("hide");
                             jQuery(".header-2").addClass("sticky");
                             jQuery(".header-2").each(function(){
                                 jQuery("#hidden-header").css('height', headerHeight);
@@ -96,7 +97,8 @@ jQuery(document).ready(function(){
                         } else {
                             jQuery(".header-1").removeClass("header-bg");
 			    jQuery(".header-1").addClass("light-header").removeClass("dark-header");
-			    jQuery(".header-1 div.visible-lg, .header-1 div.visible-sm").addClass("hide");
+			    jQuery(".header-1 div.visible-lg.dark, .header-1 div.visible-sm.white").addClass("hide");
+			    jQuery(".header-1 #logo.white").removeClass("hide");
                             jQuery(".header-2").removeClass("sticky");
                             jQuery(".header-2").each(function(){
                                 jQuery("#hidden-header").css('height', 0);
@@ -105,14 +107,14 @@ jQuery(document).ready(function(){
                     } else {
                         if (jQuery(window).scrollTop() > pageHeaderHeight) {
                             jQuery(".header-1").addClass("header-bg");
-			    jQuery(".header-1 #logo").removeClass("hide");
+			    jQuery(".header-1 #logo.dark").addClass("hide");
                             jQuery(".header-2").addClass("sticky");
                             jQuery(".header-2").each(function(){
                                 jQuery("#hidden-header").css('height', headerHeight);
                             });
                         } else {
                             jQuery(".header-1").removeClass("header-bg");
-			    jQuery(".header-1 #logo").addClass("hide");
+			    jQuery(".header-1 #logo.dark").removeClass("hide");
                             jQuery(".header-2").removeClass("sticky");
                             jQuery(".header-2").each(function(){
                                 jQuery("#hidden-header").css('height', 0);
@@ -692,7 +694,7 @@ setActiveStyleSheet(title);
 // Smooth scrolling with navigation menu and logo links.  Script removes hash symbol in the pathname
 
 jQuery(document).ready(function(){
-
+	
 	/*$('.nav-menu a[href*=#]:not([href=#])').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			$('.nav-menu li').removeClass('active');

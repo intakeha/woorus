@@ -12,6 +12,8 @@
 */
 
 Route::get('/', 'HomeController@showWelcome');
+Route::get('/signup', 'HomeController@signup');
+Route::get('/portfolio/heartstrings', 'HomeController@heartstrings');
 
 //Form request:: POST action will trigger to controller
 Route::post('contact','ContactController@getContactUsForm');

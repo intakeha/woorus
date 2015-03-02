@@ -91,7 +91,7 @@
     
 <!-- Start Home Section -->
 
-<?php $bg = array("bg-02.jpg","bg-03.jpg", "bg-05.jpg", "bg-08.jpg");?>
+<?php $bg = array("bg-02.jpg","bg-03.jpg", "bg-05.jpg", "bg-06.jpg", "bg-08.jpg", "bg-12.jpg");?>
 <div id="home" class="section-home fullscreen one-slide parallax dark-section" style="background-image: url(images/<?php echo $bg[array_rand($bg)];?>)">
     
     <!-- Overlay -->
